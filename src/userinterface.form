@@ -23,7 +23,7 @@
         <properties>
           <font size="12"/>
           <foreground color="-16739397"/>
-          <text value="Welcome to HexWolf. This tool will add a color gradient to your text."/>
+          <text value="Welcome to HexW0lf. This tool will add a color gradient to your text."/>
         </properties>
       </component>
       <grid id="ec3c2" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">

@@ -81,7 +81,7 @@ public class userinterface {
     }
 
     public static void main(String[] args) {
-        JFrame frame = new JFrame("HexWolf - Rainbow Text Creator");
+        JFrame frame = new JFrame("HexW0lf - Color Gradient Generator");
         frame.setContentPane(new userinterface().interfacepanel);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
