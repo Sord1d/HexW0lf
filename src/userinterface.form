@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="userinterface">
+  <grid id="27dc6" binding="interfacepanel" layout-manager="GridLayoutManager" row-count="15" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="7" left="10" bottom="7" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="1608" height="491"/>
+    </constraints>
+    <properties>
+      <background color="-12632257"/>
+      <enabled value="true"/>
+      <foreground color="-12828863"/>
+      <minimumSize width="640" height="340"/>
+    </properties>
+    <border type="none" title-justification="2" title-position="2">
+      <title-color color="-12828863"/>
+    </border>
+    <children>
+      <component id="7ff8" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="12"/>
+          <foreground color="-16739397"/>
+          <text value="Welcome to HexWolf. This tool will add rainbow color codes to your text."/>
+        </properties>
+      </component>
+      <grid id="ec3c2" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="15"/>
+        <constraints>
+          <grid row="5" column="4" row-span="6" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12632257"/>
+          <foreground color="-12828863"/>
+        </properties>
+        <border type="line">
+          <color color="-16739397"/>
+        </border>
+        <children>
+          <component id="ba51d" class="javax.swing.JTextPane" binding="OutputText">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <autoscrolls value="false"/>
+              <background color="-12632257"/>
+              <caretColor color="-12828863"/>
+              <foreground color="-16739397"/>
+              <requestFocusEnabled value="true"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="4c71b" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="15" bottom="0" right="0"/>
+        <constraints>
+          <grid row="5" column="0" row-span="6" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12632257"/>
+        </properties>
+        <border type="line">
+          <color color="-16739397"/>
+        </border>
+        <children>
+          <component id="293bc" class="javax.swing.JTextPane" binding="InputTextTextPane">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <autoscrolls value="false"/>
+              <background color="-12632257"/>
+              <caretColor color="-16739397"/>
+              <foreground color="-16739397"/>
+              <text value="input text"/>
+            </properties>
+            <clientProperties>
+              <JEditorPane.honorDisplayProperties class="java.lang.Boolean" value="false"/>
+            </clientProperties>
+          </component>
+        </children>
+      </grid>
+      <component id="3bd70" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="13" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16739397"/>
+          <text value="github.com/sord1d"/>
+        </properties>
+      </component>
+      <component id="13318" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16739397"/>
+          <text value="Step 1: text to convert"/>
+        </properties>
+      </component>
+      <component id="1a250" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16739397"/>
+          <text value="Step 2:  Generate"/>
+        </properties>
+      </component>
+      <component id="2a1fa" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16739397"/>
+          <text value="Step3: copy your text:"/>
+        </properties>
+      </component>
+      <component id="c8a32" class="javax.swing.JButton" binding="generateButton" default-binding="true">
+        <constraints>
+          <grid row="11" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <contentAreaFilled value="false"/>
+          <foreground color="-16739397"/>
+          <opaque value="false"/>
+          <text value="Generate!"/>
+        </properties>
+      </component>
+      <component id="67d6f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16739397"/>
+          <text value="Start with color:"/>
+        </properties>
+      </component>
+      <component id="ab2b1" class="javax.swing.JRadioButton" binding="OptionRed">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12632257"/>
+          <foreground color="-4514277"/>
+          <selected value="true"/>
+          <text value="Red"/>
+        </properties>
+      </component>
+      <component id="18b16" class="javax.swing.JRadioButton" binding="OptionGreen">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12632257"/>
+          <foreground color="-14370028"/>
+          <text value="Green"/>
+        </properties>
+      </component>
+      <component id="f74af" class="javax.swing.JRadioButton" binding="OptionBlue">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12632257"/>
+          <foreground color="-13617477"/>
+          <text value="Blue"/>
+        </properties>
+      </component>
+      <component id="39446" class="javax.swing.JRadioButton" binding="OptionYellow">
+        <constraints>
+          <grid row="10" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12632257"/>
+          <foreground color="-4475596"/>
+          <text value="Yellow"/>
+        </properties>
+      </component>
+      <vspacer id="3f207">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="65f00">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="ec137">
+        <constraints>
+          <grid row="12" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="125e9">
+        <constraints>
+          <grid row="14" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="fb293">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="550b1">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>
