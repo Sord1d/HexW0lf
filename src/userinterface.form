@@ -8,8 +8,9 @@
     <properties>
       <background color="-12632257"/>
       <enabled value="true"/>
+      <focusable value="true"/>
       <foreground color="-12828863"/>
-      <minimumSize width="640" height="340"/>
+      <minimumSize width="740" height="440"/>
     </properties>
     <border type="none" title-justification="2" title-position="2">
       <title-color color="-12828863"/>
