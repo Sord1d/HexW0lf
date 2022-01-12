@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="HexW0lf:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/HexW0lf_jar</output-path>
+    <root id="archive" name="HexW0lf.jar">
+      <element id="module-output" name="HexW0lf" />
+    </root>
+  </artifact>
+</component>
