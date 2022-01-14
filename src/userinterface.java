@@ -106,7 +106,7 @@ public class userinterface {
             OutputText.setText(text + hex + CurrentLetter);
             CurrentPosition = CurrentPosition +1 ;
 
-            if (color<71) {
+            if (color<70) {
                 color = color +1;
             } else {
                 color =1;
